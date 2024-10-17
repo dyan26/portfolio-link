@@ -1,18 +1,22 @@
+/* Ocean-themed Background and Color Scheme */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background: linear-gradient(to bottom, #0077be, #00aaff); /* Ocean gradient from dark blue to light blue */
+    color: #ffffff; /* White text for better readability */
 }
 
+/* Header Styling */
 header {
-    background: #333;
+    background: #005f99; /* Darker blue for the header */
     color: #fff;
     padding: 1rem;
     text-align: center;
 }
 
+/* Navigation Menu Styling */
 nav ul {
     list-style: none;
     padding: 0;
@@ -28,11 +32,13 @@ nav a {
     text-decoration: none;
 }
 
+/* Section Styling */
 section {
     padding: 2rem;
     text-align: center;
 }
 
+/* Styling for the Contact Form */
 #contact form {
     display: flex;
     flex-direction: column;
@@ -43,12 +49,13 @@ section {
 #contact input, #contact textarea {
     margin: 10px 0;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #005f99; /* Border color matching the ocean theme */
     border-radius: 5px;
 }
 
+/* Button Styling */
 button {
-    background: #333;
+    background: #005f99; /* Ocean blue color */
     color: #fff;
     border: none;
     padding: 10px;
@@ -56,12 +63,21 @@ button {
     border-radius: 5px;
 }
 
+/* Footer Styling */
 footer {
-    background: #333;
+    background: #005f99; /* Matching footer color with the header */
     color: #fff;
     text-align: center;
     padding: 1rem;
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+/* Additional Styling for Project Cards */
+.project {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background for a light effect */
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
 }
